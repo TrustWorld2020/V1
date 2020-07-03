@@ -1,0 +1,196 @@
+
+.table {
+    color: #d5dfea !important;
+    margin-bottom: 0px !important;
+}
+.table > thead > tr > td, .table > thead > tr > th{
+    padding: 0.8rem .5rem;
+    border-top: 0px solid rgba(255,255,255,.1);
+}
+.table > tbody > tr > td, .table > tbody > tr > th{
+    white-space: nowrap;
+    padding: 0.8rem .5rem;
+    border-top: 1px solid rgba(255,255,255,.1);
+}
+.table thead th{
+    border-bottom: 0px solid #dee2e6;
+}
+.box-shadow-bule{
+    box-shadow: 5px 5px 10px 0px rgba(3, 48, 100, 0.1);
+}
+.box-header{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.center-modal .modal-dialog{
+    max-width: 90%;
+}
+.theme-primary .btn-info {
+    background-color: #2ab0d4;
+    border-color: #2ab0d4;
+}
+.theme-primary .badge-info {
+    background-color: #2ab0d4;
+}
+.theme-primary .btn-flat.btn-info:hover, .theme-primary .btn-flat.btn-info:active, .theme-primary .btn-flat.btn-info.active{
+    background-color: #475f7b !important;
+    border-color: #475f7b !important;
+    color: #ffffff;
+}
+
+
+/* 字体颜色 */
+.white{
+    color: #ffffff
+}
+.yellow{
+    color: #f3a006
+}
+.smallgray, .smallgray span {
+    font-size: 11px;
+    color: #bbbbbb;
+}
+
+.tc{
+    text-align: center;
+}
+.hidden{
+    overflow: hidden;
+}
+.opacity1{
+    opacity: 0.1;
+}
+.opacity5{
+    opacity: 0.5;
+}
+
+.light-skin{
+    color: #d5dfea !important;
+}
+body{
+    max-width: 640px;
+    margin: 0 auto;
+}
+.bodybg:before {
+    content: ' ';
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url("../img/bg2.jpg") #000 center 0 no-repeat;
+    background-size: cover;
+}
+
+.content{
+    padding: 15px 15px 0px 15px;
+}
+.bgw1{
+    background-color: rgba(255,255,255,.1);
+}
+.bgw0{
+    background-color: rgba(255,255,255,.15);
+}
+
+.play-a{
+    -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    -webkit-animation: custom-button-anime .75s infinite;
+    animation: custom-button-anime .75s infinite;
+    animation: custom-button-anime .75s infinite;
+}
+ @-webkit-keyframes custom-button-anime {
+    0% {
+        box-shadow: 0 0 0 0 rgba(255, 184, 34,.8)
+    }
+    70% {
+        box-shadow: 0 0 0 5px rgba(255, 184, 34,0.3)
+    }
+    100% {
+        box-shadow: 0 0 0 10px rgba(255, 184, 34,0)
+    }
+}
+@keyframes custom-button-anime {
+    0% {
+        box-shadow: 0 0 0 0 rgba(255, 184, 34,0.8)
+    }
+    70% {
+        box-shadow: 0 0 0 5px rgba(255, 184, 34,0.3)
+    }
+    100% {
+        box-shadow: 0 0 0 10px rgba(255, 184, 34,0)
+    }
+}
+.unit-eth {
+    position: absolute;
+    right: 55px;
+    bottom: 5px;
+    color: #bbbbbb;
+    font-size: 11px;
+}
+.settle-days{
+    position: absolute;
+    top: 0px;
+    left:-10px;
+}
+.absolute-icon{
+    position: absolute;
+    bottom: -10px;
+    right:-20px;
+}
+#remainTime{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#remainTime span{
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    display: inline-block;
+    margin:5px;
+    font-size: 24px;
+    font-weight: 800;
+    text-align: center;
+    color: #ffffff;
+    background:linear-gradient(0deg,#209cbe 50%,#2ab0d4 50%);
+}
+.form-transparent, .form-transparent:focus {
+    height: 41px;
+    padding: 6px 15px;
+    background: transparent;
+    border: solid 0px rgba(255,255,255,.5) !important;
+    color: #ffffff;
+    font-size: 14px;
+    background: rgba(0,0,0,.3);
+}
+.form-transparentAll, .form-transparentAll:focus {
+    width:29px;
+    background: transparent;
+    border: solid 0px rgba(255,255,255,0) !important;
+    color: #ffffff;
+    font-size: 11px;
+    background: rgba(0,0,0,0);
+}
+textarea {
+    min-height: 100px;
+}
+
+.modal.show .modal-dialog {
+    border-radius: 10px;
+    overflow: hidden;
+}
+.bg-modal-img{
+    background: url("../img/bt_twt.png") center;
+    background-size: cover;
+}
+.text-overflow {
+    font-size: 11px !important;
+    overflow: scroll;
+    white-space: nowrap;
+}
+.dropdown-menu-dark{
+    background: #475f7b;
+    border: 0px solid rgba(0,0,0,0.15);
+    color: #d5dfea !important
+}

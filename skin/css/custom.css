@@ -165,7 +165,7 @@ body{
     background: rgba(0,0,0,.3);
 }
 .form-transparentAll, .form-transparentAll:focus {
-    width:29px;
+    width:49px;
     background: transparent;
     border: solid 0px rgba(255,255,255,0) !important;
     color: #ffffff;
